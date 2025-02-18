@@ -1,0 +1,11 @@
+@use '../../sass/variables' as *;
+@use '../../sass/mixins' as *;
+
+.home { 
+    background-color: $main-color;
+    border-radius: $main-border-radious;
+
+    button {
+        @include main-button($background: blue, $color: orange);
+    }
+}
