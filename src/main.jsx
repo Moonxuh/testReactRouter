@@ -23,6 +23,10 @@ const router = createBrowserRouter ([
     path: "/products/:productId",
     element: <Products />,
   },
+  {
+    path: "/pay",
+    element: <Pay title='Contador' lista={["maca", "pera", "uva"]} />,
+  },
 ]);
 
 createRoot(document.getElementById('root')).render(
